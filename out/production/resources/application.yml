@@ -1,0 +1,11 @@
+server:
+  port: 8802
+spring:
+  data:
+    elasticsearch:
+      cluster-name: product-dev
+      cluster-nodes: 10.144.137.1:9300,10.144.137.1:9301,10.144.137.1:9302
+      repositories:
+        enabled: true
+
+#es config
